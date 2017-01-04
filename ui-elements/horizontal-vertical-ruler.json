@@ -1,0 +1,41 @@
+{
+  "name": "Horizontal or Vertical Ruler",
+  "description": "Use this to create a horizontal ruler to divide page elements",
+  "author": "Torben Seebach",
+  "library": "ui-elements",
+  "meta": {
+    "type": "other"
+  },
+  "properties": {
+    "sections": [
+      {
+        "type": "header",
+        "order": 0,
+        "parent": "qw-pe-dropzone0-0",
+        "ref": "header1",
+        "label": "Settings"
+      }
+    ],
+    "settings": [
+      {
+        "component": "radiobuttons",
+        "type": "string",
+        "defaultValue": "vh",
+        "options": [
+          {
+            "value": "vh",
+            "label": "Horizontal"
+          },
+          {
+            "label": "Vertical",
+            "value": "vr"
+          }
+        ],
+        "order": 0,
+        "parent": "header1",
+        "ref": "orientaion",
+        "label": "Orientation"
+      }
+    ]
+  }
+}
